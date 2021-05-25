@@ -113,10 +113,7 @@ If the <i>lpPath</i> parameter is <b>NULL</b>,
      <b>SearchPath</b> searches for a matching file based on the current 
      value of the following registry value:
 
-
-<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SYSTEM</b>&#92;<b>CurrentControlSet</b>&#92;<b>Control</b>&#92;<b>Session Manager</b>&#92;<b>SafeProcessSearchMode</b>
-
-
+**HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\SafeProcessSearchMode**
 
 When the value of this <b>REG_DWORD</b> registry value is set to 1, 
      <b>SearchPath</b> first searches the folders that are specified in 
